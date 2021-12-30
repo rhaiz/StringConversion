@@ -1,0 +1,27 @@
+body {
+    background-image: url("../images/businessman-pointing-his-presentation-futuristic-digital-screen.jpg");
+    /* 'https://www.freepik.com/photos/business'>Business photo created by rawpixel.com - www.freepik.com */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(240, 240, 250);
+    background-blend-mode: lighten;
+}
+
+.oneline {
+    display: flex;
+}
+
+.oneline button {
+    margin-top: -0.5rem;
+    margin-bottom: 0.6rem;
+    margin-left: 0.3rem;
+}
+
+.ajusted {
+    margin-top: 1.3rem;
+}
+
+#app {
+    margin-top: 1rem;
+}
