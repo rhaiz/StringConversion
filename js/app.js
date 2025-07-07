@@ -1,14 +1,14 @@
-new Vue({
-    el: '#app',
-    data: {
-        message: '',
-        picked: '',
-        newmessage: ''
-    },
-    methods: {
-        modificar() {
-            this.newmessage = this.message.replace(/ /g, '_');
-            this.newmessage = this.newmessage.toLowerCase();
-        }
+Vue.createApp({
+  data() {
+    return {
+      message: '',
+      picked: '',
+      newmessage: ''
     }
-})
+  },
+  methods: {
+    modificar() {
+      this.newmessage = this.message.replace(/ /g, '_').toLowerCase();
+    }
+  }
+}).mount('#app')
